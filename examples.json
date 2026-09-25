@@ -1,0 +1,67 @@
+[
+  {
+    "label": "Karnofsky 90%: ECOG 0",
+    "input": {
+      "kps": "90"
+    },
+    "expected": {
+      "raw": {
+        "ecog": 0
+      },
+      "main": "ECOG 0",
+      "level": "low"
+    },
+    "originalInput": {
+      "kps": "90"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Karnofsky 70%: ECOG 1",
+    "input": {
+      "kps": "70"
+    },
+    "expected": {
+      "raw": {
+        "ecog": 1
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "kps": "70"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Karnofsky 50%: ECOG 2",
+    "input": {
+      "kps": "50"
+    },
+    "expected": {
+      "raw": {
+        "ecog": 2
+      },
+      "level": "mid"
+    },
+    "originalInput": {
+      "kps": "50"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Karnofsky 30%: ECOG 3",
+    "input": {
+      "kps": "30"
+    },
+    "expected": {
+      "raw": {
+        "ecog": 3
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "kps": "30"
+    },
+    "expandedZeroOptions": []
+  }
+]

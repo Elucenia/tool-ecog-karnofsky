@@ -1,0 +1,175 @@
+{
+  "tool": {
+    "id": "ecog-karnofsky",
+    "title": "ECOG e Karnofsky",
+    "short": "Converte o Karnofsky em ECOG (performance status)",
+    "desc": "Conversão da escala de Karnofsky (0 a 100%) para o performance status ECOG (0 a 5), com a descrição de cada nível, pela tabela do ECOG-ACRIN.",
+    "lead": "Traduz a escala de Karnofsky no performance status ECOG, as duas medidas de capacidade funcional usadas para indicar tratamento e selecionar pacientes para ensaios clínicos em oncologia.",
+    "spec": [
+      "oncologia-clinica",
+      "radioterapia",
+      "hematologia-e-hemoterapia",
+      "cirurgia-oncologica"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "kps",
+        "Escala de Karnofsky",
+        "sel",
+        {
+          "opts": {
+            "0": "0% · Óbito",
+            "10": "10% · Moribundo",
+            "20": "20% · Muito doente; suporte ativo necessário",
+            "30": "30% · Gravemente incapacitado; internação indicada",
+            "40": "40% · Incapacitado; precisa de cuidados especiais",
+            "50": "50% · Precisa de ajuda considerável e cuidados médicos frequentes",
+            "60": "60% · Precisa de ajuda ocasional",
+            "70": "70% · Cuida de si, mas não trabalha",
+            "80": "80% · Atividade normal com esforço",
+            "90": "90% · Atividade normal; sinais ou sintomas mínimos",
+            "100": "100% · Normal, sem queixas nem evidência de doença"
+          }
+        }
+      ]
+    ],
+    "formula": "<p>Correspondência usada pelo ECOG-ACRIN: Karnofsky 100–90% = <strong>ECOG 0</strong>; 80–70% = <strong>ECOG 1</strong>; 60–50% = <strong>ECOG 2</strong>; 40–30% = <strong>ECOG 3</strong>; 20–10% = <strong>ECOG 4</strong>; 0% = <strong>ECOG 5</strong> (óbito).</p><p>As escalas não são idênticas: a própria tabela do ECOG-ACRIN é apresentada como \"uma das formas\" de mapear uma na outra.</p>",
+    "table": [
+      [
+        "ECOG",
+        "Descrição",
+        "Karnofsky"
+      ],
+      [
+        "0",
+        "Totalmente ativo, sem restrições",
+        "100–90%"
+      ],
+      [
+        "1",
+        "Restrito a esforço intenso; faz trabalho leve ou sedentário",
+        "80–70%"
+      ],
+      [
+        "2",
+        "Cuida de si, não trabalha; fora do leito &gt; 50% do dia",
+        "60–50%"
+      ],
+      [
+        "3",
+        "Autocuidado limitado; leito ou cadeira &gt; 50% do dia",
+        "40–30%"
+      ],
+      [
+        "4",
+        "Totalmente acamado, sem autocuidado",
+        "20–10%"
+      ],
+      [
+        "5",
+        "Óbito",
+        "0%"
+      ]
+    ],
+    "tips": [
+      "Pergunte o que o paciente <strong>faz</strong> no dia a dia (trabalho, autocuidado, tempo deitado), não o que ele acha que consegue: a superestimativa do performance status é comum.",
+      "Os ensaios de quimioterapia citotóxica incluíram quase sempre ECOG 0 a 1 (às vezes 2); em ECOG 3 a 4, o benefício de tratamento citotóxico costuma ser pequeno, salvo em tumores muito quimiossensíveis.",
+      "ECOG 2 é a zona cinzenta: separe a limitação causada pelo próprio tumor (que pode melhorar com a resposta) da causada por comorbidades.",
+      "Registre a escala e a data: a queda do performance status ao longo do tratamento é um dos sinais mais úteis de progressão ou toxicidade."
+    ],
+    "sources": [
+      [
+        "Oken MM et al. Toxicity and response criteria of the Eastern Cooperative Oncology Group. Am J Clin Oncol, 1982.",
+        "https://doi.org/10.1097/00000421-198212000-00014"
+      ],
+      [
+        "ECOG-ACRIN Cancer Research Group. ECOG Performance Status Scale (comparação com a escala de Karnofsky).",
+        "https://ecog-acrin.org/resources/ecog-performance-status/"
+      ]
+    ],
+    "cases": [
+      [
+        "Karnofsky 90%: ECOG 0",
+        {
+          "kps": "90"
+        },
+        {
+          "raw": {
+            "ecog": 0
+          },
+          "main": "ECOG 0",
+          "level": "low"
+        }
+      ],
+      [
+        "Karnofsky 70%: ECOG 1",
+        {
+          "kps": "70"
+        },
+        {
+          "raw": {
+            "ecog": 1
+          },
+          "level": "low"
+        }
+      ],
+      [
+        "Karnofsky 50%: ECOG 2",
+        {
+          "kps": "50"
+        },
+        {
+          "raw": {
+            "ecog": 2
+          },
+          "level": "mid"
+        }
+      ],
+      [
+        "Karnofsky 30%: ECOG 3",
+        {
+          "kps": "30"
+        },
+        {
+          "raw": {
+            "ecog": 3
+          },
+          "level": "high"
+        }
+      ]
+    ],
+    "batch": "onco-diagnostico",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "onco-diagnostico",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/onco-diagnostico.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 4,
+      "passed": 4,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/onco-diagnostico.php",
+    "sha256": "29e7fd6aab1f8bf937a34267255855c21f804696da2b4817d6197578cdcbe743",
+    "bytes": 78570
+  },
+  "clinicalValidation": "not-performed"
+}
