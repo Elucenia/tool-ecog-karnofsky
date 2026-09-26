@@ -1,11 +1,11 @@
-/* tool-ecog-karnofsky · Elucenia · https://github.com/Elucenia/tool-ecog-karnofsky
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-ecog-karnofsky · ELUCENIA · https://github.com/Elucenia/tool-ecog-karnofsky
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"ecog-karnofsky","title":"ECOG e Karnofsky","fields":[["kps","Escala de Karnofsky","sel",{"opts":{"0":"0% · Óbito","10":"10% · Moribundo","20":"20% · Muito doente; suporte ativo necessário","30":"30% · Gravemente incapacitado; internação indicada","40":"40% · Incapacitado; precisa de cuidados especiais","50":"50% · Precisa de ajuda considerável e cuidados médicos frequentes","60":"60% · Precisa de ajuda ocasional","70":"70% · Cuida de si, mas não trabalha","80":"80% · Atividade normal com esforço","90":"90% · Atividade normal; sinais ou sintomas mínimos","100":"100% · Normal, sem queixas nem evidência de doença"}}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};

@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-ecog-karnofsky",
   "version": "0.1.0",
-  "description": "ECOG e Karnofsky · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "ECOG e Karnofsky · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
