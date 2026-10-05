@@ -1,6 +1,12 @@
 [
   {
-    "label": "Karnofsky 90%: ECOG 0",
+    "id": "ecog-karnofsky",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Karnofsky 90%: ECOG 0",
+    "originalInput": {
+      "kps": "90"
+    },
     "input": {
       "kps": "90"
     },
@@ -11,13 +17,33 @@
       "main": "ECOG 0",
       "level": "low"
     },
-    "originalInput": {
-      "kps": "90"
+    "recordedResult": {
+      "main": [
+        "ECOG 0",
+        ""
+      ],
+      "label": "Equivalente na escala ECOG",
+      "raw": {
+        "ecog": 0
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Karnofsky 70%: ECOG 1",
+    "id": "ecog-karnofsky",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Karnofsky 70%: ECOG 1",
+    "originalInput": {
+      "kps": "70"
+    },
     "input": {
       "kps": "70"
     },
@@ -27,13 +53,33 @@
       },
       "level": "low"
     },
-    "originalInput": {
-      "kps": "70"
+    "recordedResult": {
+      "main": [
+        "ECOG 1",
+        ""
+      ],
+      "label": "Equivalente na escala ECOG",
+      "raw": {
+        "ecog": 1
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Karnofsky 50%: ECOG 2",
+    "id": "ecog-karnofsky",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Karnofsky 50%: ECOG 2",
+    "originalInput": {
+      "kps": "50"
+    },
     "input": {
       "kps": "50"
     },
@@ -43,13 +89,33 @@
       },
       "level": "mid"
     },
-    "originalInput": {
-      "kps": "50"
+    "recordedResult": {
+      "main": [
+        "ECOG 2",
+        ""
+      ],
+      "label": "Equivalente na escala ECOG",
+      "raw": {
+        "ecog": 2
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Karnofsky 30%: ECOG 3",
+    "id": "ecog-karnofsky",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Karnofsky 30%: ECOG 3",
+    "originalInput": {
+      "kps": "30"
+    },
     "input": {
       "kps": "30"
     },
@@ -59,9 +125,23 @@
       },
       "level": "high"
     },
-    "originalInput": {
-      "kps": "30"
+    "recordedResult": {
+      "main": [
+        "ECOG 3",
+        ""
+      ],
+      "label": "Equivalente na escala ECOG",
+      "raw": {
+        "ecog": 3
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

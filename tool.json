@@ -5,13 +5,13 @@
     "short": "Converte o Karnofsky em ECOG (performance status)",
     "desc": "Conversão da escala de Karnofsky (0 a 100%) para o performance status ECOG (0 a 5), com a descrição de cada nível, pela tabela do ECOG-ACRIN.",
     "lead": "Traduz a escala de Karnofsky no performance status ECOG, as duas medidas de capacidade funcional usadas para indicar tratamento e selecionar pacientes para ensaios clínicos em oncologia.",
+    "kind": "Calculadora",
     "spec": [
       "oncologia-clinica",
       "radioterapia",
       "hematologia-e-hemoterapia",
       "cirurgia-oncologica"
     ],
-    "tier": 1,
     "fields": [
       [
         "kps",
@@ -35,49 +35,6 @@
       ]
     ],
     "formula": "<p>Correspondência usada pelo ECOG-ACRIN: Karnofsky 100–90% = <strong>ECOG 0</strong>; 80–70% = <strong>ECOG 1</strong>; 60–50% = <strong>ECOG 2</strong>; 40–30% = <strong>ECOG 3</strong>; 20–10% = <strong>ECOG 4</strong>; 0% = <strong>ECOG 5</strong> (óbito).</p><p>As escalas não são idênticas: a própria tabela do ECOG-ACRIN é apresentada como \"uma das formas\" de mapear uma na outra.</p>",
-    "table": [
-      [
-        "ECOG",
-        "Descrição",
-        "Karnofsky"
-      ],
-      [
-        "0",
-        "Totalmente ativo, sem restrições",
-        "100–90%"
-      ],
-      [
-        "1",
-        "Restrito a esforço intenso; faz trabalho leve ou sedentário",
-        "80–70%"
-      ],
-      [
-        "2",
-        "Cuida de si, não trabalha; fora do leito &gt; 50% do dia",
-        "60–50%"
-      ],
-      [
-        "3",
-        "Autocuidado limitado; leito ou cadeira &gt; 50% do dia",
-        "40–30%"
-      ],
-      [
-        "4",
-        "Totalmente acamado, sem autocuidado",
-        "20–10%"
-      ],
-      [
-        "5",
-        "Óbito",
-        "0%"
-      ]
-    ],
-    "tips": [
-      "Pergunte o que o paciente <strong>faz</strong> no dia a dia (trabalho, autocuidado, tempo deitado), não o que ele acha que consegue: a superestimativa do performance status é comum.",
-      "Os ensaios de quimioterapia citotóxica incluíram quase sempre ECOG 0 a 1 (às vezes 2); em ECOG 3 a 4, o benefício de tratamento citotóxico costuma ser pequeno, salvo em tumores muito quimiossensíveis.",
-      "ECOG 2 é a zona cinzenta: separe a limitação causada pelo próprio tumor (que pode melhorar com a resposta) da causada por comorbidades.",
-      "Registre a escala e a data: a queda do performance status ao longo do tratamento é um dos sinais mais úteis de progressão ou toxicidade."
-    ],
     "sources": [
       [
         "Oken MM et al. Toxicity and response criteria of the Eastern Cooperative Oncology Group. Am J Clin Oncol, 1982.",
@@ -139,9 +96,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -150,17 +104,124 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-03T19:09:01.297Z",
+      "total": 11,
+      "passed": 11,
+      "evidencePath": "reports/review-20261003/oncology-source-oracles.json",
+      "scope": "All eleven published Karnofsky values in the commonly used comparison. The scales are not identical and this is not clinical assessment of performance status.",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "ECOG 0–5/Oken 1982; correspondência KPS 90–100/70–80/50–60/30–40/10–20/0 de ECOGACRIN",
+    "implementationVersion": "ecog-karnofsky@native-2026-10-03+a8d55955d58b",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/7165009/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Correspondência usada pelo ECOG-ACRIN: Karnofsky 100–90% = ECOG 0 ; 80–70% = ECOG 1 ; 60–50% = ECOG 2 ; 40–30% = ECOG 3 ; 20–10% = ECOG 4 ; 0% = ECOG 5 (óbito). As escalas não são idênticas: a própria tabela do ECOG-ACRIN é apresentada como \"uma das formas\" de mapear uma na outra.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "kps",
+            "label": "Escala de Karnofsky",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "0% · Óbito",
+              "10": "10% · Moribundo",
+              "20": "20% · Muito doente; suporte ativo necessário",
+              "30": "30% · Gravemente incapacitado; internação indicada",
+              "40": "40% · Incapacitado; precisa de cuidados especiais",
+              "50": "50% · Precisa de ajuda considerável e cuidados médicos frequentes",
+              "60": "60% · Precisa de ajuda ocasional",
+              "70": "70% · Cuida de si, mas não trabalha",
+              "80": "80% · Atividade normal com esforço",
+              "90": "90% · Atividade normal; sinais ou sintomas mínimos",
+              "100": "100% · Normal, sem queixas nem evidência de doença"
+            }
+          }
+        ],
+        "hash": "7caaea17a43c52be402225d41c63cbbb2cc6432f58a726399703bbe4fd459494"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Oken MM et al. Toxicity and response criteria of the Eastern Cooperative Oncology Group. Am J Clin Oncol, 1982.",
+          "url": "https://doi.org/10.1097/00000421-198212000-00014",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Toxicity and response criteria of the Eastern Cooperative Oncology Group.",
+            "year": "1982",
+            "firstPublicationDate": "1982-12-01",
+            "doi": "10.1097/00000421-198212000-00014",
+            "pmid": "7165009",
+            "journal": "American journal of clinical oncology",
+            "authors": "Oken MM, Creech RH, Tormey DC, Horton J, Davis TE, McFadden ET, Carbone PP."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/7165009/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "ECOG-ACRIN Cancer Research Group. ECOG Performance Status Scale (comparação com a escala de Karnofsky).",
+          "url": "https://ecog-acrin.org/resources/ecog-performance-status/",
+          "class": "institutional-method-page-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "edition": "ECOG Performance Status Scale and institutional KPS correspondence; page checked 2026-10-03, no numbered new edition inferred."
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-03T19:09:01.297Z",
+        "total": 11,
+        "passed": 11,
+        "evidencePath": "reports/review-20261003/oncology-source-oracles.json",
+        "scope": "All eleven published Karnofsky values in the commonly used comparison. The scales are not identical and this is not clinical assessment of performance status."
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "a8d55955d58b4aae72fc951579ac99da0fbf197e199ed96544603684d88b9ceb"
+    },
+    "limits": "A tabela ECOG-ACRIN apresenta uma correspondência comumente usada entre ECOG e Karnofsky, entre várias formas possíveis de mapear as escalas. Elas descrevem capacidade funcional e ajudam a definir populações de ensaios; a conversão não estabelece, sozinha, elegibilidade para um tratamento. A avaliação funcional e os critérios do protocolo clínico devem ser preservados.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:02.815Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Oken 1982 sem resumo recuperado. Tabela institucional ECOG-ACRIN precisa de leitura direta para confirmar correspondência KPS, subjetividade e uso por protocolo oncológico.",
+        "Elegibilidade terapêutica e protocolos de ensaios específicos não foram conferidos. Conversão não substitui avaliação funcional."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/ecog-karnofsky/calculator.js",
+    "bytes": 6347,
+    "sha256": "a8d55955d58b4aae72fc951579ac99da0fbf197e199ed96544603684d88b9ceb"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "7b61be101b9554c39f0d9e927a49d89ebbb20f99e218f9e8ba6401e05dc51fd3",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 11,
+      "sha256": "8d3b50d473573aeeb364a8a767892f065fb46a71921f4c15f9e91a888c62fb7d",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
