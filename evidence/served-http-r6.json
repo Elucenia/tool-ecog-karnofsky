@@ -1,0 +1,789 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "ecog-karnofsky",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/ecog-karnofsky/calculator.js",
+    "sha256": "a8d55955d58b4aae72fc951579ac99da0fbf197e199ed96544603684d88b9ceb",
+    "bytes": 6347
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 4,
+    "replayed": 4,
+    "passed": 4,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "ecog-karnofsky",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Karnofsky 90%: ECOG 0",
+      "originalInput": {
+        "kps": "90"
+      },
+      "input": {
+        "kps": "90"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "ecog": 0
+        },
+        "main": "ECOG 0",
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "ECOG 0",
+          ""
+        ],
+        "label": "Equivalente na escala ECOG",
+        "raw": {
+          "ecog": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "kps": "90"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+          "startedAt": "2026-10-05T17:36:49.902Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "ecog-karnofsky",
+              "main": [
+                "ECOG 0",
+                ""
+              ],
+              "label": "Equivalente na escala ECOG",
+              "raw": {
+                "ecog": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "7d4f5a014359530c77dbab293519d10fff8097df724702a5d471a9a26f8653ab",
+          "bytes": 146,
+          "elapsedMs": 6.780099999989034
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+        "startedAt": "2026-10-05T17:36:49.902Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "ecog-karnofsky",
+            "main": [
+              "ECOG 0",
+              ""
+            ],
+            "label": "Equivalente na escala ECOG",
+            "raw": {
+              "ecog": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "7d4f5a014359530c77dbab293519d10fff8097df724702a5d471a9a26f8653ab",
+        "bytes": 146,
+        "elapsedMs": 6.780099999989034
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "ECOG 0",
+            "obtained": "ECOG 0",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.ecog",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.ecog",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "ECOG 0",
+            "obtained": "ECOG 0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "ecog-karnofsky",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Karnofsky 70%: ECOG 1",
+      "originalInput": {
+        "kps": "70"
+      },
+      "input": {
+        "kps": "70"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "ecog": 1
+        },
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "ECOG 1",
+          ""
+        ],
+        "label": "Equivalente na escala ECOG",
+        "raw": {
+          "ecog": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "kps": "70"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+          "startedAt": "2026-10-05T17:36:50.216Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "ecog-karnofsky",
+              "main": [
+                "ECOG 1",
+                ""
+              ],
+              "label": "Equivalente na escala ECOG",
+              "raw": {
+                "ecog": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "b5c8c89afee1cf988fd7ecabe7f211506cbf9d47cbfce5fec45953fc147109a2",
+          "bytes": 146,
+          "elapsedMs": 5.146000000007916
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+        "startedAt": "2026-10-05T17:36:50.216Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "ecog-karnofsky",
+            "main": [
+              "ECOG 1",
+              ""
+            ],
+            "label": "Equivalente na escala ECOG",
+            "raw": {
+              "ecog": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "b5c8c89afee1cf988fd7ecabe7f211506cbf9d47cbfce5fec45953fc147109a2",
+        "bytes": 146,
+        "elapsedMs": 5.146000000007916
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.ecog",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.ecog",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "ECOG 1",
+            "obtained": "ECOG 1",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "ecog-karnofsky",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Karnofsky 50%: ECOG 2",
+      "originalInput": {
+        "kps": "50"
+      },
+      "input": {
+        "kps": "50"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "ecog": 2
+        },
+        "level": "mid"
+      },
+      "recordedResult": {
+        "main": [
+          "ECOG 2",
+          ""
+        ],
+        "label": "Equivalente na escala ECOG",
+        "raw": {
+          "ecog": 2
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "kps": "50"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+          "startedAt": "2026-10-05T17:36:50.530Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "ecog-karnofsky",
+              "main": [
+                "ECOG 2",
+                ""
+              ],
+              "label": "Equivalente na escala ECOG",
+              "raw": {
+                "ecog": 2
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "db599ab8453179dc18d4c811709a2631e9becf53bd5115894ef31bac81ca2248",
+          "bytes": 146,
+          "elapsedMs": 2.345400000005611
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+        "startedAt": "2026-10-05T17:36:50.530Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "ecog-karnofsky",
+            "main": [
+              "ECOG 2",
+              ""
+            ],
+            "label": "Equivalente na escala ECOG",
+            "raw": {
+              "ecog": 2
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "db599ab8453179dc18d4c811709a2631e9becf53bd5115894ef31bac81ca2248",
+        "bytes": 146,
+        "elapsedMs": 2.345400000005611
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.ecog",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.ecog",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "ECOG 2",
+            "obtained": "ECOG 2",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "ecog-karnofsky",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "Karnofsky 30%: ECOG 3",
+      "originalInput": {
+        "kps": "30"
+      },
+      "input": {
+        "kps": "30"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "ecog": 3
+        },
+        "level": "high"
+      },
+      "recordedResult": {
+        "main": [
+          "ECOG 3",
+          ""
+        ],
+        "label": "Equivalente na escala ECOG",
+        "raw": {
+          "ecog": 3
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "kps": "30"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+          "startedAt": "2026-10-05T17:36:50.844Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "ecog-karnofsky",
+              "main": [
+                "ECOG 3",
+                ""
+              ],
+              "label": "Equivalente na escala ECOG",
+              "raw": {
+                "ecog": 3
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "a83d55939a4dd788a5c3a7d2ba9f95f309f9a3e3997a9096c6e44bb3ddebbd20",
+          "bytes": 146,
+          "elapsedMs": 2.9372999999905005
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/ecog-karnofsky/calculate",
+        "startedAt": "2026-10-05T17:36:50.844Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "ecog-karnofsky",
+            "main": [
+              "ECOG 3",
+              ""
+            ],
+            "label": "Equivalente na escala ECOG",
+            "raw": {
+              "ecog": 3
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "a83d55939a4dd788a5c3a7d2ba9f95f309f9a3e3997a9096c6e44bb3ddebbd20",
+        "bytes": 146,
+        "elapsedMs": 2.9372999999905005
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.ecog",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.ecog",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "ECOG 3",
+            "obtained": "ECOG 3",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
