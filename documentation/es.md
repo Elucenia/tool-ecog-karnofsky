@@ -71,3 +71,51 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Totalmente activo, sin restricción en relación con el estado previo a la enfermedad
+
+| Detalles del resultado | |
+| --- | --- |
+| Karnofsky 90% | Capaz de realizar actividad normal; signos o síntomas mínimos de la enfermedad |
+| Rango de Karnofsky de este ECOG | 100–90% |
+
+
+### 2
+
+Restringido en la actividad física extenuante, pero deambula y realiza trabajo ligero o sedentario
+
+| Detalles del resultado | |
+| --- | --- |
+| Karnofsky 70% | Se cuida a sí mismo, pero es incapaz de realizar actividad normal o trabajo activo |
+| Rango de Karnofsky de este ECOG | 80–70% |
+
+
+### 3
+
+Deambula y puede cuidarse, pero no puede trabajar; fuera de la cama más del 50% del tiempo de vigilia
+
+| Detalles del resultado | |
+| --- | --- |
+| Karnofsky 50% | Necesita ayuda considerable y atención médica frecuente |
+| Rango de Karnofsky de este ECOG | 60–50% |
+
+ECOG ≥ 2: la mayoría de los ensayos de quimioterapia citotóxica incluyeron solo ECOG 0 a 1 (o 2); sopesar beneficio y toxicidad.
+
+
+### 4
+
+Autocuidado limitado; en cama o en silla más del 50% del tiempo de vigilia
+
+| Detalles del resultado | |
+| --- | --- |
+| Karnofsky 30% | Gravemente discapacitado; está indicada la hospitalización, sin muerte inminente |
+| Rango de Karnofsky de este ECOG | 40–30% |
+
+ECOG ≥ 2: la mayoría de los ensayos de quimioterapia citotóxica incluyeron solo ECOG 0 a 1 (o 2); sopesar beneficio y toxicidad.
+

@@ -71,3 +71,51 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Fully active, no restriction compared with pre-disease status
+
+| Result details | |
+| --- | --- |
+| Karnofsky 90% | Able to carry on normal activity; minimal signs or symptoms of disease |
+| Karnofsky range for this ECOG | 100–90% |
+
+
+### 2
+
+Restricted in strenuous physical activity, but ambulatory and able to do light or sedentary work
+
+| Result details | |
+| --- | --- |
+| Karnofsky 70% | Cares for self, but is unable to carry on normal activity or to do active work |
+| Karnofsky range for this ECOG | 80–70% |
+
+
+### 3
+
+Ambulatory and able to care for self, but unable to work; up and about more than 50% of waking hours
+
+| Result details | |
+| --- | --- |
+| Karnofsky 50% | Needs considerable assistance and frequent medical care |
+| Karnofsky range for this ECOG | 60–50% |
+
+ECOG ≥ 2: most cytotoxic chemotherapy trials included only ECOG 0 to 1 (or 2); weigh benefit and toxicity.
+
+
+### 4
+
+Limited self-care; in bed or chair more than 50% of waking hours
+
+| Result details | |
+| --- | --- |
+| Karnofsky 30% | Severely disabled; hospital admission indicated, though death not imminent |
+| Karnofsky range for this ECOG | 40–30% |
+
+ECOG ≥ 2: most cytotoxic chemotherapy trials included only ECOG 0 to 1 (or 2); weigh benefit and toxicity.
+

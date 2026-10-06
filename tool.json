@@ -113,7 +113,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "ECOG 0–5/Oken 1982; correspondência KPS 90–100/70–80/50–60/30–40/10–20/0 de ECOGACRIN",
-    "implementationVersion": "ecog-karnofsky@native-2026-10-03+a8d55955d58b",
+    "implementationVersion": "ecog-karnofsky@native-2026-10-05+26ff4975ffb9",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/7165009/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -190,7 +190,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "a8d55955d58b4aae72fc951579ac99da0fbf197e199ed96544603684d88b9ceb"
+      "implementationHash": "26ff4975ffb9a7daeb06fda062f4d3899d6021059914ac1b96764884cdef93a1",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "ecog-karnofsky@native-2026-10-03+a8d55955d58b",
+          "previousImplementationHash": "a8d55955d58b4aae72fc951579ac99da0fbf197e199ed96544603684d88b9ceb",
+          "implementationHash": "26ff4975ffb9a7daeb06fda062f4d3899d6021059914ac1b96764884cdef93a1",
+          "scientificBodySha256": "03b7fe30ae3def9f4351feb22f99bd272f15f002552b6935d51d75c16cc87cf4",
+          "metadataContractHash": "7caaea17a43c52be402225d41c63cbbb2cc6432f58a726399703bbe4fd459494",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A tabela ECOG-ACRIN apresenta uma correspondência comumente usada entre ECOG e Karnofsky, entre várias formas possíveis de mapear as escalas. Elas descrevem capacidade funcional e ajudam a definir populações de ensaios; a conversão não estabelece, sozinha, elegibilidade para um tratamento. A avaliação funcional e os critérios do protocolo clínico devem ser preservados.",
     "sourceLimitEvidence": {
@@ -210,15 +238,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/ecog-karnofsky/calculator.js",
-    "bytes": 6347,
-    "sha256": "a8d55955d58b4aae72fc951579ac99da0fbf197e199ed96544603684d88b9ceb"
+    "bytes": 6552,
+    "sha256": "26ff4975ffb9a7daeb06fda062f4d3899d6021059914ac1b96764884cdef93a1"
   },
-  "sourceToolSha256": "7b61be101b9554c39f0d9e927a49d89ebbb20f99e218f9e8ba6401e05dc51fd3",
+  "sourceToolSha256": "d865b8487760afec4c2f5088c3d6cfcec59301e9918e4db50b0bd0448605b21c",
   "omittedFullReferenceBanks": [
     {
       "rows": 11,
       "sha256": "8d3b50d473573aeeb364a8a767892f065fb46a71921f4c15f9e91a888c62fb7d",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

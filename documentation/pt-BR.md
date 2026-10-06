@@ -71,3 +71,51 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Totalmente ativo, sem restrição em relação ao estado anterior à doença
+
+| Detalhes do resultado | |
+| --- | --- |
+| Karnofsky 90% | Capaz de atividade normal; sinais ou sintomas mínimos da doença |
+| Faixa de Karnofsky deste ECOG | 100–90% |
+
+
+### 2
+
+Restrito em atividade física extenuante, mas deambula e faz trabalho leve ou sedentário
+
+| Detalhes do resultado | |
+| --- | --- |
+| Karnofsky 70% | Cuida de si, mas é incapaz de atividade normal ou de trabalho ativo |
+| Faixa de Karnofsky deste ECOG | 80–70% |
+
+
+### 3
+
+Deambula e cuida de si, mas não consegue trabalhar; fora do leito mais de 50% do tempo acordado
+
+| Detalhes do resultado | |
+| --- | --- |
+| Karnofsky 50% | Precisa de ajuda considerável e de cuidados médicos frequentes |
+| Faixa de Karnofsky deste ECOG | 60–50% |
+
+ECOG ≥ 2: a maioria dos ensaios de quimioterapia citotóxica incluiu apenas ECOG 0 a 1 (ou 2); pese benefício e toxicidade.
+
+
+### 4
+
+Autocuidado limitado; no leito ou na cadeira mais de 50% do tempo acordado
+
+| Detalhes do resultado | |
+| --- | --- |
+| Karnofsky 30% | Gravemente incapacitado; internação indicada, sem morte iminente |
+| Faixa de Karnofsky deste ECOG | 40–30% |
+
+ECOG ≥ 2: a maioria dos ensaios de quimioterapia citotóxica incluiu apenas ECOG 0 a 1 (ou 2); pese benefício e toxicidade.
+

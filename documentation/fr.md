@@ -71,3 +71,51 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Entièrement actif, sans restriction par rapport à l’état antérieur à la maladie
+
+| Détails du résultat | |
+| --- | --- |
+| Karnofsky 90 % | Capable de mener une activité normale ; signes ou symptômes minimes de la maladie |
+| Intervalle de Karnofsky pour cet ECOG | 100–90% |
+
+
+### 2
+
+Limité dans les efforts physiques intenses, mais ambulatoire et capable d’effectuer un travail léger ou sédentaire
+
+| Détails du résultat | |
+| --- | --- |
+| Karnofsky 70 % | Prend soin de lui-même, mais est incapable d’une activité normale ou d’un travail actif |
+| Intervalle de Karnofsky pour cet ECOG | 80–70% |
+
+
+### 3
+
+Ambulatoire et capable de prendre soin de lui-même, mais incapable de travailler ; hors du lit plus de 50 % du temps d’éveil
+
+| Détails du résultat | |
+| --- | --- |
+| Karnofsky 50 % | Nécessite une aide importante et des soins médicaux fréquents |
+| Intervalle de Karnofsky pour cet ECOG | 60–50% |
+
+ECOG ≥ 2 : la plupart des essais de chimiothérapie cytotoxique n’ont inclus que les ECOG 0 à 1 (ou 2) ; peser le bénéfice et la toxicité.
+
+
+### 4
+
+Autonomie limitée ; alité ou assis sur une chaise plus de 50 % du temps d’éveil
+
+| Détails du résultat | |
+| --- | --- |
+| Karnofsky 30 % | Gravement handicapé ; hospitalisation indiquée, sans décès imminent |
+| Intervalle de Karnofsky pour cet ECOG | 40–30% |
+
+ECOG ≥ 2 : la plupart des essais de chimiothérapie cytotoxique n’ont inclus que les ECOG 0 à 1 (ou 2) ; peser le bénéfice et la toxicité.
+

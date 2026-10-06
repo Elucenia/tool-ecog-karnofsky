@@ -71,3 +71,51 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Voll aktiv, ohne Einschränkung gegenüber dem Zustand vor der Erkrankung
+
+| Ergebnisdetails | |
+| --- | --- |
+| Karnofsky 90% | Zu normaler Aktivität fähig; minimale Anzeichen oder Symptome der Erkrankung |
+| Karnofsky-Bereich dieses ECOG | 100–90% |
+
+
+### 2
+
+Eingeschränkt bei anstrengender körperlicher Aktivität, aber gehfähig und fähig zu leichter oder sitzender Arbeit
+
+| Ergebnisdetails | |
+| --- | --- |
+| Karnofsky 70% | Kann sich selbst versorgen, ist aber unfähig zu normaler Aktivität oder aktiver Arbeit |
+| Karnofsky-Bereich dieses ECOG | 80–70% |
+
+
+### 3
+
+Gehfähig und in der Lage, sich selbst zu versorgen, aber nicht arbeitsfähig; mehr als 50% der wachen Zeit außerhalb des Bettes
+
+| Ergebnisdetails | |
+| --- | --- |
+| Karnofsky 50% | Benötigt erhebliche Unterstützung und häufige medizinische Versorgung |
+| Karnofsky-Bereich dieses ECOG | 60–50% |
+
+ECOG ≥ 2: Die meisten Studien zur zytotoxischen Chemotherapie schlossen nur ECOG 0 bis 1 (oder 2) ein; Nutzen und Toxizität abwägen.
+
+
+### 4
+
+Eingeschränkte Selbstversorgung; mehr als 50% der wachen Zeit im Bett oder im Stuhl
+
+| Ergebnisdetails | |
+| --- | --- |
+| Karnofsky 30% | Schwer behindert; Krankenhausaufnahme angezeigt, jedoch kein unmittelbar bevorstehender Tod |
+| Karnofsky-Bereich dieses ECOG | 40–30% |
+
+ECOG ≥ 2: Die meisten Studien zur zytotoxischen Chemotherapie schlossen nur ECOG 0 bis 1 (oder 2) ein; Nutzen und Toxizität abwägen.
+

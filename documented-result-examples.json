@@ -1,0 +1,1939 @@
+{
+  "id": "ecog-karnofsky",
+  "implementationVersion": "ecog-karnofsky@native-2026-10-05+26ff4975ffb9",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Karnofsky 90%: ECOG 0",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 90%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Capaz de atividade normal; sinais ou sintomas mínimos da doença",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Faixa de Karnofsky deste ECOG",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "100–90%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Totalmente ativo, sem restrição em relação ao estado anterior à doença",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 70%: ECOG 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 70%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Cuida de si, mas é incapaz de atividade normal ou de trabalho ativo",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Faixa de Karnofsky deste ECOG",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "80–70%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Restrito em atividade física extenuante, mas deambula e faz trabalho leve ou sedentário",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 50%: ECOG 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 50%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Precisa de ajuda considerável e de cuidados médicos frequentes",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Faixa de Karnofsky deste ECOG",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "60–50%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Deambula e cuida de si, mas não consegue trabalhar; fora do leito mais de 50% do tempo acordado",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: a maioria dos ensaios de quimioterapia citotóxica incluiu apenas ECOG 0 a 1 (ou 2); pese benefício e toxicidade.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Karnofsky 30%: ECOG 3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 30%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Gravemente incapacitado; internação indicada, sem morte iminente",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Faixa de Karnofsky deste ECOG",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "40–30%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Autocuidado limitado; no leito ou na cadeira mais de 50% do tempo acordado",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: a maioria dos ensaios de quimioterapia citotóxica incluiu apenas ECOG 0 a 1 (ou 2); pese benefício e toxicidade.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Karnofsky 90%: ECOG 0",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 90%",
+                "locale": "en",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  90
+                ]
+              },
+              "value": {
+                "text": "Able to carry on normal activity; minimal signs or symptoms of disease",
+                "locale": "en",
+                "template": "documented-authored-5bc2ebcddf9590b7c4f3"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Karnofsky range for this ECOG",
+                "locale": "en",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "100–90%",
+                "locale": "en",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  100,
+                  90
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Fully active, no restriction compared with pre-disease status",
+            "locale": "en",
+            "template": "documented-authored-3ffca8a81300874583ee"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 70%: ECOG 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 70%",
+                "locale": "en",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  70
+                ]
+              },
+              "value": {
+                "text": "Cares for self, but is unable to carry on normal activity or to do active work",
+                "locale": "en",
+                "template": "documented-authored-02ef5aabfe9ce646f1d9"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Karnofsky range for this ECOG",
+                "locale": "en",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "80–70%",
+                "locale": "en",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  80,
+                  70
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Restricted in strenuous physical activity, but ambulatory and able to do light or sedentary work",
+            "locale": "en",
+            "template": "documented-authored-89fa671d9ad7109399b5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 50%: ECOG 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 50%",
+                "locale": "en",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  50
+                ]
+              },
+              "value": {
+                "text": "Needs considerable assistance and frequent medical care",
+                "locale": "en",
+                "template": "documented-authored-96670f859f07cb34ff3f"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Karnofsky range for this ECOG",
+                "locale": "en",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "60–50%",
+                "locale": "en",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  60,
+                  50
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Ambulatory and able to care for self, but unable to work; up and about more than 50% of waking hours",
+            "locale": "en",
+            "template": "documented-authored-872e35b2e8f8809883be"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: most cytotoxic chemotherapy trials included only ECOG 0 to 1 (or 2); weigh benefit and toxicity.",
+            "locale": "en",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Karnofsky 30%: ECOG 3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 30%",
+                "locale": "en",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  30
+                ]
+              },
+              "value": {
+                "text": "Severely disabled; hospital admission indicated, though death not imminent",
+                "locale": "en",
+                "template": "documented-authored-8f7a20b70000f3b5d527"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Karnofsky range for this ECOG",
+                "locale": "en",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "40–30%",
+                "locale": "en",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  40,
+                  30
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Limited self-care; in bed or chair more than 50% of waking hours",
+            "locale": "en",
+            "template": "documented-authored-cf9fce04d20de1e7fda0"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: most cytotoxic chemotherapy trials included only ECOG 0 to 1 (or 2); weigh benefit and toxicity.",
+            "locale": "en",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Karnofsky 90%: ECOG 0",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 90%",
+                "locale": "es",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  90
+                ]
+              },
+              "value": {
+                "text": "Capaz de realizar actividad normal; signos o síntomas mínimos de la enfermedad",
+                "locale": "es",
+                "template": "documented-authored-5bc2ebcddf9590b7c4f3"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rango de Karnofsky de este ECOG",
+                "locale": "es",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "100–90%",
+                "locale": "es",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  100,
+                  90
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Totalmente activo, sin restricción en relación con el estado previo a la enfermedad",
+            "locale": "es",
+            "template": "documented-authored-3ffca8a81300874583ee"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 70%: ECOG 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 70%",
+                "locale": "es",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  70
+                ]
+              },
+              "value": {
+                "text": "Se cuida a sí mismo, pero es incapaz de realizar actividad normal o trabajo activo",
+                "locale": "es",
+                "template": "documented-authored-02ef5aabfe9ce646f1d9"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rango de Karnofsky de este ECOG",
+                "locale": "es",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "80–70%",
+                "locale": "es",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  80,
+                  70
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Restringido en la actividad física extenuante, pero deambula y realiza trabajo ligero o sedentario",
+            "locale": "es",
+            "template": "documented-authored-89fa671d9ad7109399b5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 50%: ECOG 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 50%",
+                "locale": "es",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  50
+                ]
+              },
+              "value": {
+                "text": "Necesita ayuda considerable y atención médica frecuente",
+                "locale": "es",
+                "template": "documented-authored-96670f859f07cb34ff3f"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rango de Karnofsky de este ECOG",
+                "locale": "es",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "60–50%",
+                "locale": "es",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  60,
+                  50
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Deambula y puede cuidarse, pero no puede trabajar; fuera de la cama más del 50% del tiempo de vigilia",
+            "locale": "es",
+            "template": "documented-authored-872e35b2e8f8809883be"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: la mayoría de los ensayos de quimioterapia citotóxica incluyeron solo ECOG 0 a 1 (o 2); sopesar beneficio y toxicidad.",
+            "locale": "es",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Karnofsky 30%: ECOG 3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 30%",
+                "locale": "es",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  30
+                ]
+              },
+              "value": {
+                "text": "Gravemente discapacitado; está indicada la hospitalización, sin muerte inminente",
+                "locale": "es",
+                "template": "documented-authored-8f7a20b70000f3b5d527"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rango de Karnofsky de este ECOG",
+                "locale": "es",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "40–30%",
+                "locale": "es",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  40,
+                  30
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Autocuidado limitado; en cama o en silla más del 50% del tiempo de vigilia",
+            "locale": "es",
+            "template": "documented-authored-cf9fce04d20de1e7fda0"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: la mayoría de los ensayos de quimioterapia citotóxica incluyeron solo ECOG 0 a 1 (o 2); sopesar beneficio y toxicidad.",
+            "locale": "es",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Karnofsky 90%: ECOG 0",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 90 %",
+                "locale": "fr",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  90
+                ]
+              },
+              "value": {
+                "text": "Capable de mener une activité normale ; signes ou symptômes minimes de la maladie",
+                "locale": "fr",
+                "template": "documented-authored-5bc2ebcddf9590b7c4f3"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Intervalle de Karnofsky pour cet ECOG",
+                "locale": "fr",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "100–90%",
+                "locale": "fr",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  100,
+                  90
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Entièrement actif, sans restriction par rapport à l’état antérieur à la maladie",
+            "locale": "fr",
+            "template": "documented-authored-3ffca8a81300874583ee"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 70%: ECOG 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 70 %",
+                "locale": "fr",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  70
+                ]
+              },
+              "value": {
+                "text": "Prend soin de lui-même, mais est incapable d’une activité normale ou d’un travail actif",
+                "locale": "fr",
+                "template": "documented-authored-02ef5aabfe9ce646f1d9"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Intervalle de Karnofsky pour cet ECOG",
+                "locale": "fr",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "80–70%",
+                "locale": "fr",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  80,
+                  70
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Limité dans les efforts physiques intenses, mais ambulatoire et capable d’effectuer un travail léger ou sédentaire",
+            "locale": "fr",
+            "template": "documented-authored-89fa671d9ad7109399b5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 50%: ECOG 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 50 %",
+                "locale": "fr",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  50
+                ]
+              },
+              "value": {
+                "text": "Nécessite une aide importante et des soins médicaux fréquents",
+                "locale": "fr",
+                "template": "documented-authored-96670f859f07cb34ff3f"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Intervalle de Karnofsky pour cet ECOG",
+                "locale": "fr",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "60–50%",
+                "locale": "fr",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  60,
+                  50
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Ambulatoire et capable de prendre soin de lui-même, mais incapable de travailler ; hors du lit plus de 50 % du temps d’éveil",
+            "locale": "fr",
+            "template": "documented-authored-872e35b2e8f8809883be"
+          },
+          "note": {
+            "text": "ECOG ≥ 2 : la plupart des essais de chimiothérapie cytotoxique n’ont inclus que les ECOG 0 à 1 (ou 2) ; peser le bénéfice et la toxicité.",
+            "locale": "fr",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Karnofsky 30%: ECOG 3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 30 %",
+                "locale": "fr",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  30
+                ]
+              },
+              "value": {
+                "text": "Gravement handicapé ; hospitalisation indiquée, sans décès imminent",
+                "locale": "fr",
+                "template": "documented-authored-8f7a20b70000f3b5d527"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Intervalle de Karnofsky pour cet ECOG",
+                "locale": "fr",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "40–30%",
+                "locale": "fr",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  40,
+                  30
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Autonomie limitée ; alité ou assis sur une chaise plus de 50 % du temps d’éveil",
+            "locale": "fr",
+            "template": "documented-authored-cf9fce04d20de1e7fda0"
+          },
+          "note": {
+            "text": "ECOG ≥ 2 : la plupart des essais de chimiothérapie cytotoxique n’ont inclus que les ECOG 0 à 1 (ou 2) ; peser le bénéfice et la toxicité.",
+            "locale": "fr",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Karnofsky 90%: ECOG 0",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 90%",
+                "locale": "de",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  90
+                ]
+              },
+              "value": {
+                "text": "Zu normaler Aktivität fähig; minimale Anzeichen oder Symptome der Erkrankung",
+                "locale": "de",
+                "template": "documented-authored-5bc2ebcddf9590b7c4f3"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Karnofsky-Bereich dieses ECOG",
+                "locale": "de",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "100–90%",
+                "locale": "de",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  100,
+                  90
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Voll aktiv, ohne Einschränkung gegenüber dem Zustand vor der Erkrankung",
+            "locale": "de",
+            "template": "documented-authored-3ffca8a81300874583ee"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 70%: ECOG 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 70%",
+                "locale": "de",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  70
+                ]
+              },
+              "value": {
+                "text": "Kann sich selbst versorgen, ist aber unfähig zu normaler Aktivität oder aktiver Arbeit",
+                "locale": "de",
+                "template": "documented-authored-02ef5aabfe9ce646f1d9"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Karnofsky-Bereich dieses ECOG",
+                "locale": "de",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "80–70%",
+                "locale": "de",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  80,
+                  70
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Eingeschränkt bei anstrengender körperlicher Aktivität, aber gehfähig und fähig zu leichter oder sitzender Arbeit",
+            "locale": "de",
+            "template": "documented-authored-89fa671d9ad7109399b5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 50%: ECOG 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 50%",
+                "locale": "de",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  50
+                ]
+              },
+              "value": {
+                "text": "Benötigt erhebliche Unterstützung und häufige medizinische Versorgung",
+                "locale": "de",
+                "template": "documented-authored-96670f859f07cb34ff3f"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Karnofsky-Bereich dieses ECOG",
+                "locale": "de",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "60–50%",
+                "locale": "de",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  60,
+                  50
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gehfähig und in der Lage, sich selbst zu versorgen, aber nicht arbeitsfähig; mehr als 50% der wachen Zeit außerhalb des Bettes",
+            "locale": "de",
+            "template": "documented-authored-872e35b2e8f8809883be"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: Die meisten Studien zur zytotoxischen Chemotherapie schlossen nur ECOG 0 bis 1 (oder 2) ein; Nutzen und Toxizität abwägen.",
+            "locale": "de",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Karnofsky 30%: ECOG 3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 30%",
+                "locale": "de",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  30
+                ]
+              },
+              "value": {
+                "text": "Schwer behindert; Krankenhausaufnahme angezeigt, jedoch kein unmittelbar bevorstehender Tod",
+                "locale": "de",
+                "template": "documented-authored-8f7a20b70000f3b5d527"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Karnofsky-Bereich dieses ECOG",
+                "locale": "de",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "40–30%",
+                "locale": "de",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  40,
+                  30
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Eingeschränkte Selbstversorgung; mehr als 50% der wachen Zeit im Bett oder im Stuhl",
+            "locale": "de",
+            "template": "documented-authored-cf9fce04d20de1e7fda0"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: Die meisten Studien zur zytotoxischen Chemotherapie schlossen nur ECOG 0 bis 1 (oder 2) ein; Nutzen und Toxizität abwägen.",
+            "locale": "de",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Karnofsky 90%: ECOG 0",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 90%",
+                "locale": "it",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  90
+                ]
+              },
+              "value": {
+                "text": "In grado di svolgere un’attività normale; segni o sintomi minimi della malattia",
+                "locale": "it",
+                "template": "documented-authored-5bc2ebcddf9590b7c4f3"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Intervallo di Karnofsky di questo ECOG",
+                "locale": "it",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "100–90%",
+                "locale": "it",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  100,
+                  90
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Completamente attivo, senza restrizioni rispetto allo stato precedente la malattia",
+            "locale": "it",
+            "template": "documented-authored-3ffca8a81300874583ee"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 70%: ECOG 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 70%",
+                "locale": "it",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  70
+                ]
+              },
+              "value": {
+                "text": "Si prende cura di sé, ma è incapace di svolgere le normali attività o di lavorare attivamente",
+                "locale": "it",
+                "template": "documented-authored-02ef5aabfe9ce646f1d9"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Intervallo di Karnofsky di questo ECOG",
+                "locale": "it",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "80–70%",
+                "locale": "it",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  80,
+                  70
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Limitato nell’attività fisica intensa, ma deambula ed è in grado di svolgere lavoro leggero o sedentario",
+            "locale": "it",
+            "template": "documented-authored-89fa671d9ad7109399b5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 50%: ECOG 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 50%",
+                "locale": "it",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  50
+                ]
+              },
+              "value": {
+                "text": "Necessita di notevole assistenza e di cure mediche frequenti",
+                "locale": "it",
+                "template": "documented-authored-96670f859f07cb34ff3f"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Intervallo di Karnofsky di questo ECOG",
+                "locale": "it",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "60–50%",
+                "locale": "it",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  60,
+                  50
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Deambula ed è in grado di prendersi cura di sé, ma non può lavorare; fuori dal letto per più del 50% del tempo di veglia",
+            "locale": "it",
+            "template": "documented-authored-872e35b2e8f8809883be"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: la maggior parte degli studi di chemioterapia citotossica ha incluso solo ECOG 0 a 1 (o 2); valutare beneficio e tossicità.",
+            "locale": "it",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Karnofsky 30%: ECOG 3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 30%",
+                "locale": "it",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  30
+                ]
+              },
+              "value": {
+                "text": "Gravemente disabilitato; è indicato il ricovero, senza morte imminente",
+                "locale": "it",
+                "template": "documented-authored-8f7a20b70000f3b5d527"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Intervallo di Karnofsky di questo ECOG",
+                "locale": "it",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "40–30%",
+                "locale": "it",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  40,
+                  30
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Autocura limitata; a letto o seduto sulla sedia per più del 50% del tempo di veglia",
+            "locale": "it",
+            "template": "documented-authored-cf9fce04d20de1e7fda0"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: la maggior parte degli studi di chemioterapia citotossica ha incluso solo ECOG 0 a 1 (o 2); valutare beneficio e tossicità.",
+            "locale": "it",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Karnofsky 90%: ECOG 0",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "كارنوفسكي ٩٠%",
+                "locale": "ar",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  90
+                ]
+              },
+              "value": {
+                "text": "قادر على ممارسة النشاط الطبيعي؛ علامات أو أعراض طفيفة للمرض",
+                "locale": "ar",
+                "template": "documented-authored-5bc2ebcddf9590b7c4f3"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "نطاق كارنوفسكي لهذا ECOG",
+                "locale": "ar",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "١٠٠–٩٠%",
+                "locale": "ar",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  100,
+                  90
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "نشط بالكامل، دون تقييد مقارنة بالحالة قبل المرض",
+            "locale": "ar",
+            "template": "documented-authored-3ffca8a81300874583ee"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 70%: ECOG 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "كارنوفسكي ٧٠%",
+                "locale": "ar",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  70
+                ]
+              },
+              "value": {
+                "text": "يعتني بنفسه، لكنه غير قادر على النشاط الطبيعي أو العمل النشط",
+                "locale": "ar",
+                "template": "documented-authored-02ef5aabfe9ce646f1d9"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "نطاق كارنوفسكي لهذا ECOG",
+                "locale": "ar",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "٨٠–٧٠%",
+                "locale": "ar",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  80,
+                  70
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "مقيد في النشاط البدني الشاق، لكنه قادر على المشي ويقوم بعمل خفيف أو مكتبي",
+            "locale": "ar",
+            "template": "documented-authored-89fa671d9ad7109399b5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 50%: ECOG 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "كارنوفسكي ٥٠%",
+                "locale": "ar",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  50
+                ]
+              },
+              "value": {
+                "text": "يحتاج إلى مساعدة كبيرة ورعاية طبية متكررة",
+                "locale": "ar",
+                "template": "documented-authored-96670f859f07cb34ff3f"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "نطاق كارنوفسكي لهذا ECOG",
+                "locale": "ar",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "٦٠–٥٠%",
+                "locale": "ar",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  60,
+                  50
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "قادر على المشي والعناية بنفسه، لكنه غير قادر على العمل؛ يكون خارج السرير لأكثر من 50% من ساعات اليقظة",
+            "locale": "ar",
+            "template": "documented-authored-872e35b2e8f8809883be"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: شملت معظم تجارب العلاج الكيميائي السام للخلايا فقط ECOG 0 إلى 1 (أو 2)؛ ينبغي موازنة الفائدة والسمّية.",
+            "locale": "ar",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Karnofsky 30%: ECOG 3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "كارنوفسكي ٣٠%",
+                "locale": "ar",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  30
+                ]
+              },
+              "value": {
+                "text": "مُعاق بشدة؛ الدخول إلى المستشفى مُشار إليه، دون وفاة وشيكة",
+                "locale": "ar",
+                "template": "documented-authored-8f7a20b70000f3b5d527"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "نطاق كارنوفسكي لهذا ECOG",
+                "locale": "ar",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "٤٠–٣٠%",
+                "locale": "ar",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  40,
+                  30
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "العناية الذاتية محدودة؛ في السرير أو على الكرسي لأكثر من 50% من ساعات اليقظة",
+            "locale": "ar",
+            "template": "documented-authored-cf9fce04d20de1e7fda0"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: شملت معظم تجارب العلاج الكيميائي السام للخلايا فقط ECOG 0 إلى 1 (أو 2)؛ ينبغي موازنة الفائدة والسمّية.",
+            "locale": "ar",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Karnofsky 90%: ECOG 0",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 90%",
+                "locale": "zh",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  90
+                ]
+              },
+              "value": {
+                "text": "能够进行正常活动；疾病的体征或症状极轻微",
+                "locale": "zh",
+                "template": "documented-authored-5bc2ebcddf9590b7c4f3"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "此 ECOG 对应的 Karnofsky 范围",
+                "locale": "zh",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "100–90%",
+                "locale": "zh",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  100,
+                  90
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "完全活动，与患病前状态相比无受限",
+            "locale": "zh",
+            "template": "documented-authored-3ffca8a81300874583ee"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 70%: ECOG 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 70%",
+                "locale": "zh",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  70
+                ]
+              },
+              "value": {
+                "text": "能自理，但不能进行正常活动或从事积极工作",
+                "locale": "zh",
+                "template": "documented-authored-02ef5aabfe9ce646f1d9"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "此 ECOG 对应的 Karnofsky 范围",
+                "locale": "zh",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "80–70%",
+                "locale": "zh",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  80,
+                  70
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "剧烈体力活动受限，但可行走，且能从事轻体力或久坐工作",
+            "locale": "zh",
+            "template": "documented-authored-89fa671d9ad7109399b5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 50%: ECOG 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 50%",
+                "locale": "zh",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  50
+                ]
+              },
+              "value": {
+                "text": "需要大量帮助和频繁医疗照护",
+                "locale": "zh",
+                "template": "documented-authored-96670f859f07cb34ff3f"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "此 ECOG 对应的 Karnofsky 范围",
+                "locale": "zh",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "60–50%",
+                "locale": "zh",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  60,
+                  50
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "可行走并能自理，但不能工作；清醒时间超过50%不在床上",
+            "locale": "zh",
+            "template": "documented-authored-872e35b2e8f8809883be"
+          },
+          "note": {
+            "text": "ECOG ≥ 2：大多数细胞毒性化疗试验仅纳入 ECOG 0 至 1（或 2）；应权衡获益与毒性。",
+            "locale": "zh",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Karnofsky 30%: ECOG 3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 30%",
+                "locale": "zh",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  30
+                ]
+              },
+              "value": {
+                "text": "严重残疾；建议住院，但并非濒临死亡",
+                "locale": "zh",
+                "template": "documented-authored-8f7a20b70000f3b5d527"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "此 ECOG 对应的 Karnofsky 范围",
+                "locale": "zh",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "40–30%",
+                "locale": "zh",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  40,
+                  30
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "自我照顾受限；清醒时间超过50%卧床或坐椅",
+            "locale": "zh",
+            "template": "documented-authored-cf9fce04d20de1e7fda0"
+          },
+          "note": {
+            "text": "ECOG ≥ 2：大多数细胞毒性化疗试验仅纳入 ECOG 0 至 1（或 2）；应权衡获益与毒性。",
+            "locale": "zh",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Karnofsky 90%: ECOG 0",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 90%",
+                "locale": "ja",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  90
+                ]
+              },
+              "value": {
+                "text": "通常の活動が可能で、疾患の徴候や症状は最小限",
+                "locale": "ja",
+                "template": "documented-authored-5bc2ebcddf9590b7c4f3"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "この ECOG の Karnofsky 範囲",
+                "locale": "ja",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "100–90%",
+                "locale": "ja",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  100,
+                  90
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "完全に活動的で、発病前の状態に比べて制限なし",
+            "locale": "ja",
+            "template": "documented-authored-3ffca8a81300874583ee"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 70%: ECOG 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 70%",
+                "locale": "ja",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  70
+                ]
+              },
+              "value": {
+                "text": "身の回りのことは自分でできるが、通常の活動や積極的な仕事はできない",
+                "locale": "ja",
+                "template": "documented-authored-02ef5aabfe9ce646f1d9"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "この ECOG の Karnofsky 範囲",
+                "locale": "ja",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "80–70%",
+                "locale": "ja",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  80,
+                  70
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "激しい身体活動は制限されるが、歩行可能で、軽作業または座位作業は可能",
+            "locale": "ja",
+            "template": "documented-authored-89fa671d9ad7109399b5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 50%: ECOG 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 50%",
+                "locale": "ja",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  50
+                ]
+              },
+              "value": {
+                "text": "かなりの介助と頻繁な医療ケアを要する",
+                "locale": "ja",
+                "template": "documented-authored-96670f859f07cb34ff3f"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "この ECOG の Karnofsky 範囲",
+                "locale": "ja",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "60–50%",
+                "locale": "ja",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  60,
+                  50
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "歩行可能で身の回りのことはできるが、仕事はできない；覚醒時間の50%以上はベッド外で過ごす",
+            "locale": "ja",
+            "template": "documented-authored-872e35b2e8f8809883be"
+          },
+          "note": {
+            "text": "ECOG ≥ 2：細胞障害性化学療法の大半の試験はECOG 0～1（または2）のみを対象とした；有益性と毒性を考慮する。",
+            "locale": "ja",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Karnofsky 30%: ECOG 3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 30%",
+                "locale": "ja",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  30
+                ]
+              },
+              "value": {
+                "text": "重度障害があり、入院が適応されるが、差し迫った死はない",
+                "locale": "ja",
+                "template": "documented-authored-8f7a20b70000f3b5d527"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "この ECOG の Karnofsky 範囲",
+                "locale": "ja",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "40–30%",
+                "locale": "ja",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  40,
+                  30
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "セルフケアは限られている；覚醒時間の50%以上をベッド上または椅子で過ごす",
+            "locale": "ja",
+            "template": "documented-authored-cf9fce04d20de1e7fda0"
+          },
+          "note": {
+            "text": "ECOG ≥ 2：細胞障害性化学療法の大半の試験はECOG 0～1（または2）のみを対象とした；有益性と毒性を考慮する。",
+            "locale": "ja",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Karnofsky 90%: ECOG 0",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 90%",
+                "locale": "hi",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  90
+                ]
+              },
+              "value": {
+                "text": "सामान्य गतिविधि करने में सक्षम; रोग के न्यूनतम संकेत या लक्षण",
+                "locale": "hi",
+                "template": "documented-authored-5bc2ebcddf9590b7c4f3"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "इस ECOG के लिए Karnofsky सीमा",
+                "locale": "hi",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "100–90%",
+                "locale": "hi",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  100,
+                  90
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "पूरी तरह सक्रिय, रोग-पूर्व स्थिति की तुलना में कोई प्रतिबंध नहीं",
+            "locale": "hi",
+            "template": "documented-authored-3ffca8a81300874583ee"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 70%: ECOG 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 70%",
+                "locale": "hi",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  70
+                ]
+              },
+              "value": {
+                "text": "स्वयं की देखभाल कर सकता है, लेकिन सामान्य गतिविधि या सक्रिय कार्य करने में असमर्थ है",
+                "locale": "hi",
+                "template": "documented-authored-02ef5aabfe9ce646f1d9"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "इस ECOG के लिए Karnofsky सीमा",
+                "locale": "hi",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "80–70%",
+                "locale": "hi",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  80,
+                  70
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "कठिन शारीरिक गतिविधि में प्रतिबंधित, लेकिन चलने-फिरने में सक्षम है और हल्का या बैठकर किया जाने वाला काम कर सकता है",
+            "locale": "hi",
+            "template": "documented-authored-89fa671d9ad7109399b5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Karnofsky 50%: ECOG 2",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 50%",
+                "locale": "hi",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  50
+                ]
+              },
+              "value": {
+                "text": "काफ़ी सहायता और बार-बार चिकित्सीय देखभाल की आवश्यकता है",
+                "locale": "hi",
+                "template": "documented-authored-96670f859f07cb34ff3f"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "इस ECOG के लिए Karnofsky सीमा",
+                "locale": "hi",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "60–50%",
+                "locale": "hi",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  60,
+                  50
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "चल-फिर सकता है और अपनी देखभाल कर सकता है, लेकिन काम नहीं कर सकता; जागने के समय का 50% से अधिक बिस्तर के बाहर बिताता है",
+            "locale": "hi",
+            "template": "documented-authored-872e35b2e8f8809883be"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: अधिकांश साइटोटॉक्सिक कीमोथेरेपी परीक्षणों में केवल ECOG 0 से 1 (या 2) शामिल थे; लाभ और विषाक्तता का आकलन करें।",
+            "locale": "hi",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Karnofsky 30%: ECOG 3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Karnofsky 30%",
+                "locale": "hi",
+                "template": "documented-authored-ce5258eb2252ea575c1a",
+                "sourceNumbers": [
+                  30
+                ]
+              },
+              "value": {
+                "text": "गंभीर रूप से अक्षम; अस्पताल में भर्ती का संकेत है, लेकिन मृत्यु निकट नहीं है",
+                "locale": "hi",
+                "template": "documented-authored-8f7a20b70000f3b5d527"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "इस ECOG के लिए Karnofsky सीमा",
+                "locale": "hi",
+                "template": "documented-authored-4a381920da526b44dca7"
+              },
+              "value": {
+                "text": "40–30%",
+                "locale": "hi",
+                "template": "documented-authored-63dc84fc843377e52050",
+                "sourceNumbers": [
+                  40,
+                  30
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "स्व-देखभाल सीमित; जागने के समय का 50% से अधिक बिस्तर या कुर्सी पर बिताता है",
+            "locale": "hi",
+            "template": "documented-authored-cf9fce04d20de1e7fda0"
+          },
+          "note": {
+            "text": "ECOG ≥ 2: अधिकांश साइटोटॉक्सिक कीमोथेरेपी परीक्षणों में केवल ECOG 0 से 1 (या 2) शामिल थे; लाभ और विषाक्तता का आकलन करें।",
+            "locale": "hi",
+            "template": "documented-authored-c21e027238a428713aca"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

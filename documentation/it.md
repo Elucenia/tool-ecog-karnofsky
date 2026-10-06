@@ -71,3 +71,51 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Completamente attivo, senza restrizioni rispetto allo stato precedente la malattia
+
+| Dettagli del risultato | |
+| --- | --- |
+| Karnofsky 90% | In grado di svolgere un’attività normale; segni o sintomi minimi della malattia |
+| Intervallo di Karnofsky di questo ECOG | 100–90% |
+
+
+### 2
+
+Limitato nell’attività fisica intensa, ma deambula ed è in grado di svolgere lavoro leggero o sedentario
+
+| Dettagli del risultato | |
+| --- | --- |
+| Karnofsky 70% | Si prende cura di sé, ma è incapace di svolgere le normali attività o di lavorare attivamente |
+| Intervallo di Karnofsky di questo ECOG | 80–70% |
+
+
+### 3
+
+Deambula ed è in grado di prendersi cura di sé, ma non può lavorare; fuori dal letto per più del 50% del tempo di veglia
+
+| Dettagli del risultato | |
+| --- | --- |
+| Karnofsky 50% | Necessita di notevole assistenza e di cure mediche frequenti |
+| Intervallo di Karnofsky di questo ECOG | 60–50% |
+
+ECOG ≥ 2: la maggior parte degli studi di chemioterapia citotossica ha incluso solo ECOG 0 a 1 (o 2); valutare beneficio e tossicità.
+
+
+### 4
+
+Autocura limitata; a letto o seduto sulla sedia per più del 50% del tempo di veglia
+
+| Dettagli del risultato | |
+| --- | --- |
+| Karnofsky 30% | Gravemente disabilitato; è indicato il ricovero, senza morte imminente |
+| Intervallo di Karnofsky di questo ECOG | 40–30% |
+
+ECOG ≥ 2: la maggior parte degli studi di chemioterapia citotossica ha incluso solo ECOG 0 a 1 (o 2); valutare beneficio e tossicità.
+
